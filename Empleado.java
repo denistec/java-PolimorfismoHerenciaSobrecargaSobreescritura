@@ -35,6 +35,8 @@ public abstract class Empleado {
     public void setTipo(String tipo) {
         this.tipo = tipo;
     }
+
+    //este método se va a sobreescribir en las clases Empleado por fijo y Empleado por horas
     public double calcularSalario() {
         return 0;
     }
